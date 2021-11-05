@@ -14,4 +14,5 @@ main {
 p{
     font-size: 3em;
     line-height: 1.5;
+    font-weight: 200 ()
 }
