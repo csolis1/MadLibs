@@ -11,4 +11,9 @@ let story3 = `<p> A ${noun} comes up to you ${adjective} and says "I don't know 
 let story4 = `<p> Your best friend's brother's half brother's girlfriend is ${adjective}. She smells like ${noun}s and her voice makes you want to ${verb}. Your cousin's mother's godchild offers her a casserole. "Casserole!!??? What are we, ${adjective2} ${noun2}??" You decide to ${verb2} because you have reached the end of your patience. You understand why Brittany shaved her head in 2007. This ${noun} has gaba her last gool.</p>`
 let story5 = `<p> Its been a long night, you are out with your best friends, you call yourselves the ${noun} squad. It is very exclusive. Only the ${adjective}est can join. One of your friends wants to ${verb}. Who in the name of God's green earth goes ${verb}ing? Its not the 1800s. You are 3008 and they're so 2000 and late. Your other friend isn't looking very ${adjective}. "What's wrong?",you ask, "You've barely touched your limited edition ${adjective2} ${noun2}." They respond, "I don't know im just not feeling very ${noun}-y today." This is unacceptable. To be in ${noun} squad you have to be ${noun}-like 24/7. It is a shame. It is time for them to ${verb2} or you will make them ${verb2}. </p>`
 
-document.querySelector("main").innerHTML = story5;
+var storyArray = [story1, story2, story3, story4, story5];
+
+var randomStory = storyArray[Math.floor(Math.random()*storyArray.length)];
+
+document.querySelector("main").innerHTML = randomStory;
+
