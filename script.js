@@ -17,3 +17,6 @@ var randomStory = storyArray[Math.floor(Math.random()*storyArray.length)];
 
 document.querySelector("main").innerHTML = randomStory;
 
+
+
+
