@@ -8,7 +8,7 @@ body {
 
 h1 {
     text-align: auto;
-    font-size: 300px; 
+    font-size: 200px; 
     color:dodgerblue;
     letter-spacing: 0.3ch;
     text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
@@ -72,4 +72,20 @@ a{
 
 .intro{
     font-size: 80px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-size: 38px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+
+}
+
+button:hover {
+    background-color: darkturquoise;
+    color: white;
 }
