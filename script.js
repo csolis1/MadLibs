@@ -13,7 +13,7 @@ let story5 = `<p> Its been a long night, you are out with your best friends, you
 let story6 = `<p> I decided to enter the "${noun.bold()} store" after my ${noun.bold()} decided to explode. I was approached by the nicest employee, he had the voice of a ${noun2.bold()}. He looked at me dead in the eyes and says he will ${verb2.bold()} to the finest ${noun.bold()} money can buy. And that he did. It was so ${adjective2.bold()} that I added him to my will so when I die he will inherit my wealth. Mr. voice of a ${noun2.bold()} should be promoted immediately. I cant wait to go try my new ${noun.bold()} to enjoy with my whole family while we all ${verb.bold()} together.`
 let story7 = `<p> I am writing this review to tell the world how ${adjective.bold()} this ${noun.bold()}. There can be a lot said for the most ground-breaking technological advances in our entire human existence: Penicillin, artificial intelligence, the atom bomb and now the ${noun.bold()}. Its existence is so ${adjective2.bold()} that the church would ${verb.bold()}. The ${adjective2.bold()} who created this rivals the power of a ${noun2.bold()}. They are the personification of all things ${adjective2.bold()}ly and ${noun2.bold()}ly. A ${adjective2.bold()} ${noun2.bold()} if you will. This ${noun.bold()} ${verb.bold()}ed my marriage.</p>`
 
-var storyArray = [story1, story2, story3, story4, story5];
+var storyArray = [story1, story2, story3, story4, story5, story6, story7];
 
 var randomStory = storyArray[Math.floor(Math.random()*storyArray.length)];
 
