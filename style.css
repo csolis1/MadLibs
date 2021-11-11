@@ -7,6 +7,7 @@ body {
     background-image: url("https://i.pinimg.com/originals/3e/c4/41/3ec441ad580dff71f85de825c8c87b19.jpg");
     background-repeat: no-repeat;
     background-size: 1800px 2500px;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -95,4 +96,10 @@ button{
 button:hover {
     background-color: darkturquoise;
     color: white;
+}
+
+footer{
+    position:absolute;
+    background-color: black;
+    width: 100%;
 }
