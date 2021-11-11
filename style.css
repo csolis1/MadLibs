@@ -4,6 +4,9 @@ body {
     /* font-family: Arial, Helvetica, sans-serif; */
     padding: 2rem;
     box-sizing: border-box;
+    background-image: url("https://i.pinimg.com/originals/3e/c4/41/3ec441ad580dff71f85de825c8c87b19.jpg");
+    background-repeat: no-repeat;
+    background-size: 1800px 2500px;
 }
 
 h1 {
@@ -14,6 +17,7 @@ h1 {
     text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
     10px 20px 5px rgba(0,0,0,0.05),
     -10px 20px 5px rgba(0,0,0,0.05);
+    background-color: white;
     
 }
 
@@ -27,6 +31,7 @@ main {
     position: relative;
     border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
     letter-spacing: 0.3ch;
+    background-color: white;
 
 }
 
@@ -47,7 +52,8 @@ main {
 p{
     font-size: 3em;
     line-height: 1.5;
-    font-weight: 200 ()
+    font-weight: 200 ();
+    background-color: white;
 }
 
 input{
@@ -68,6 +74,7 @@ input:hover {
 
 a{
     font-size: 100px;
+    background-color: white;
 }
 
 .intro{
