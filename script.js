@@ -24,4 +24,12 @@ document.querySelector("main").innerHTML = randomStory;
 
 
 
+//Harry Caray page//
+let hc1=`<p> ${noun.bold()}, ${noun2.bold()} and ${verb.bold()}. If you got all that, what else do you need?  Not only do I like to go to bars because I like to ${verb2.bold()}, I do like to ${verb2.bold()}, but I go because who do you see there? Baseball fans. Here's a ${adjective.bold()} ball into the strike zone...I gotta ask, Ron, when you go to bed at night, with your ${adjective2.bold()} wife, do you you wear your toupe?</p>`
+let hc2= `<p> I don’t know what the big deal about ${noun.bold()} is. Did you ever ${verb2.bold} and buy a pack of ${noun.bold()} thinking you’d get a ${noun2.bold()} and you find no ${noun2.bold()} in the box? That might not be important to some people, but when you're a ${adjective.bold()} kid from ${adjective2.bold()} origin, and they ${verb.bold()} you out of a prize...its hard to think in laudatory terms of the product.</p>`
+let hc3=`<p> The sun is ${adjective2.bold()} in Chicago. Aw, how could Jorge Orta ${verb2.bold()} the ball in the sun, he's from Mexico. We all know the ${noun.bold()} isn't made out of ${noun2.bold()} ... but if it was made out of ${adjective.bold()} spare ribs would you ${verb.bold()} it? </p>`
+let hc4= `<p> A lot of things happened today. And they were all ${adjective.bold()}. And they were all ${adjective2.bold()}. Too bad we couldn’t have had a victory that meant a pennant, but that will ${verb.bold()}. Sure as ${noun.bold()} made ${noun2.bold()}, someday the Chicago Cubs are ${verb2.bold()}ing to be in the World Series.”</p>`
 
+var hcArray = [hc1, hc2, hc3, hc4];
+
+var hcRandomStory = hcArray [Math.floor(Math.random()*hcArray.length)];
